@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* 원하는 폰트로 변경 가능 */
+    background-color: #000; /* 배경색 검정 */
+    color: white; /* 텍스트 색상 흰색 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qna-container {
+    text-align: center;
+    width: 100%;
+}
+
+.qna-container h1 {
+    font-size: 4em; /* 크기 조정 필요 시 변경 */
+    margin-bottom: 0.5em; /* Q&A와 입력창 사이의 거리 */
+}
+
+#qna-input {
+    width: 100%; /* 입력창의 너비 */
+    padding: 0.5em; /* 입력창 내부 패딩 */
+    font-size: 1.5em; /* 입력창 폰트 크기 */
+    border: none; /* 테두리 없음 */
+    border-bottom: 2px solid #fff; /* 밑줄만 흰색으로 */
+    background-color: transparent; /* 배경색 투명 */
+    color: white; /* 입력 텍스트 색상 흰색 */
+    margin-bottom: 1em; /* 사용자 이름과의 거리 */
+}
+
+#qna-input::placeholder {
+    color: #ccc; /* 플레이스홀더 텍스트 색상 */
+}
+
+#qna-input:focus {
+    outline: none; /* 클릭 시 테두리 없애기 */
+    border-bottom: 2px solid #FFD43C; /* 클릭 시 밑줄 색상 변경 */
+}
+
+.user {
+    font-size: 1em;
+    color: #ccc; /* 사용자 이름 텍스트 색상 */
+}
+
+p{
+    background-color: red;
+}
+
+a{
+    color:#fff;
+}
