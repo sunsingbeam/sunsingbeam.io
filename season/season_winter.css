@@ -1,0 +1,147 @@
+body{
+  margin:0px;
+}
+
+
+header {
+  margin-bottom: 40px;
+  background: #67F6FF;
+  height: 100px;
+  padding:10px;
+}
+
+.winter_logo{
+  position: relative; /* 절대적 위치 설정 */
+  top: 10px; /* 별의 상단 위치 조정 */
+  left: 20px; /* 별의 왼쪽 위치 조정 */
+  width: 270px;
+  height: auto;
+
+}
+.winter_star {
+  position: relative; /* 절대적 위치 설정 */
+  top: 0px; /* 별의 상단 위치 조정 */
+  left: 650px; /* 별의 왼쪽 위치 조정 */
+  width: 60px; /* 별의 너비 */
+  height: 60px; /* 별의 높이 */
+}
+
+
+.content-area{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.winter_category_name{
+  position:absolute;
+}
+
+
+.winter_sun{
+  position: absolute;
+  left: 650px;
+  top:20px;
+  width: 15%;
+  height: auto;
+}
+
+.winter_ground{
+  position: absolute;
+  top:290px;
+  width: 98%;
+  height:30%;
+  right:10px;
+}
+
+.winter_snowman{
+  position: absolute;
+  top:200px;
+  left:400px;
+  width:180px;
+}
+
+.winter_tree{
+  position: absolute;
+  top:20px;
+  width:290px;
+  left:0px;
+}
+
+.winter_sol{
+  position: absolute;
+  top:320px;
+  width: 40px;
+  left:350px;
+}
+
+.winter_snow{
+  position: absolute;
+  right: 20px;
+}
+ 
+ 
+.main-content{
+  border-radius: 50px;
+  border: 9px solid #D4F7FF;
+  background: #E2FCFF;
+  width: 65%;
+ flex-shrink: 0;
+ position: relative;
+ top: -5px;   
+ left: 40px;
+ margin-top: 10px;
+ padding:10px 10px 10px 30px;
+  
+}
+
+.category-list{
+  position: relative;
+  top: -20px;   
+  bottom:20px;
+  margin-left: 30px; 
+}
+
+ul{
+color: #000;
+font-family: Lexend Giga;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+left: 10px;
+}
+
+li {
+  line-height: 1.5; /* 원하는 줄 간격 설정 */
+  margin-bottom: 15px; /* 리스트 아이템 하단 마진으로 간격 조절 */
+}
+
+h2{
+  -webkit-text-stroke: 2px #16CACA;
+  color:white;
+  font-weight: 1000;
+  margin-left: 15px;
+}
+
+.menu{
+  background-color:#B9FFFF;
+  width: 220px;
+  height: 380px;
+  flex-shrink: 0;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin-right: 40px;
+}
+
+footer {
+  background-color: rgba(121, 255, 255, 0.47);
+  color: #2CE2E2;
+  text-align: center;
+  opacity: 0.88;
+  position: center;
+  bottom: 10px;
+  width: 100%;
+  height: 30px;
+}
